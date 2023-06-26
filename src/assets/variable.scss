@@ -1,0 +1,15 @@
+$primary: #469bea;
+$primary-dark: #328ce0;
+$primary-gradient: linear-gradient(
+  180deg,
+  $primary-dark 0%,
+  $primary 52.08%,
+  #61aaee 100%
+);
+
+$primary-gradient-dark: linear-gradient(
+  180deg,
+  #2f84d3 0%,
+  $primary-dark 52.08%,
+  #5aa3e7 100%
+);
