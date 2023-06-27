@@ -1,6 +1,8 @@
 const ProfileCard = ({ img, name, className = "", children = "" }) => {
   return (
-    <div className={`card glass ${className} border-0 profile-card md:w-2/3`}>
+    <div
+      className={`card glass ${className} border-0 profile-card md:w-2/3 profile-shadow`}
+    >
       <figure className="relative h-[350px] overflow-visible">
         <img
           alt={name}
