@@ -8,6 +8,7 @@ import PortfolioCard from "./PortfolioCard";
 
 const Portfolio = () => {
   const [projects, setProjects] = useState({});
+  const [selectedProject, setSelectedProject] = useState({});
   const [projectModal, setProjectModal] = useState(false);
   const closeModal = () => {
     setProjectModal(false);
@@ -21,11 +22,16 @@ const Portfolio = () => {
   return (
     <section className="py-16" id="portfolio">
       <Container>
-        <Title>Portfolio</Title>
-        <Row>
+        <Title className="mb-16">Portfolio</Title>
+        <Row className="justify-center">
           {projects.length > 0 &&
             projects.map((project, index) => (
-              <PortfolioCard project={project} key={index}></PortfolioCard>
+              <PortfolioCard
+                project={project}
+                key={index}
+                setProjectModal={setProjectModal}
+                setSelectedProject={setSelectedProject}
+              ></PortfolioCard>
             ))}
         </Row>
       </Container>
@@ -55,20 +61,20 @@ const Portfolio = () => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-xl transform overflow-hidden rounded-2xl bg-white text-slate-600 p-6 text-left align-middle shadow-xl transition-all">
+                <Dialog.Panel className="w-full max-w-[95%] md:max-w-[70%] transform rounded-2xl bg-white text-slate-600 p-0 text-left align-middle shadow-xl transition-all">
                   <Dialog.Title
                     as="h3"
-                    className="text-lg font-medium leading-6 text-gray-900 mb-5 flex justify-between items-center"
+                    className="text-lg font-medium leading-6 text-gray-900 flex justify-between items-center relative p-6"
                   >
-                    Project Details
+                    {selectedProject.name}
                     <button
                       onClick={closeModal}
-                      className="btn btn-sm btn-circle btn-primary"
+                      className="btn btn-sm btn-circle btn-primary text-white absolute -top-2 -right-2"
                     >
                       <FaTimes></FaTimes>
                     </button>
                   </Dialog.Title>
-                  Project Details
+                  <div className="px-6 pb-6">{selectedProject.name}</div>
                 </Dialog.Panel>
               </Transition.Child>
             </div>

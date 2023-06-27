@@ -1,0 +1,27 @@
+.banner-bg {
+  position: relative;
+}
+
+.banner-bg:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 235px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  z-index: -1;
+  background-image: url("./../assets/banner.svg");
+  pointer-events: none;
+}
+
+.profile-card > div {
+  padding: 0;
+}
+
+.profile-card .profile-wave {
+  background-image: url("./../assets/card-shape.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
