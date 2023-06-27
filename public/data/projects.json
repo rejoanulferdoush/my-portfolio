@@ -1,0 +1,167 @@
+
+   [
+      {
+        "id": "1",
+        "name": "VieClips",
+        "features": [
+          "Responsive Interface: The project is created while keeping the UI compatible for both Desktop, Tablet, and Mobile.",
+          "Purpose: The site was built for a music film festival known as vieclip. To showcase themselves and their festival on the web.",
+          "Responsible: I was responsible for the client-side frontend part."
+        ],
+        "technologies": [
+          {
+            "name": "VS Code",
+            "icon": "vscode-dark"
+          },
+          {
+            "name": "HTML5",
+            "icon": "file-type-html"
+          },
+          {
+            "name": "CSS3"
+          },
+          {
+            "name": "Bootstrap 4",
+            "icon": "bootstrap"
+          },
+          {
+            "name": "Javascript",
+            "icon": "javascript"
+          }
+        ],
+        "liveSite": "https://vieclip.com/home/",
+        "screenshots": [
+          "https://i.ibb.co/5F9FLQj/Vieclip-1.png",
+          "https://i.ibb.co/M7PJMqR/Vieclip-2.png",
+          "https://i.ibb.co/CKh4Cw3/Vieclip-3.png",
+          "https://i.ibb.co/DfxVCZs/Vieclip-4.png",
+          "https://i.ibb.co/J32HYKp/Vieclip-5.png",
+          "https://i.ibb.co/fNM4T63/Vieclip-6.png"
+        ]
+      },
+      {
+        "id": "2",
+        "name": "AKUSHONTOY-Toy Site",
+        "features": [
+          "Responsive Interface: The project is created while keeping the UI compatible for both Desktop and Mobile.",
+          "Authentication: Normal registration as well as third-party authentications (e.g., Google, Github) are used. There are certain routes that are accessible only after you login or register through any of the given options.",
+          "Dynamic Data: Express.js & MongoDB is used for the CRUD operations."
+        ],
+        "technologies": [
+          {
+            "name": "VS Code",
+            "icon": "vscode-dark"
+          },
+          {
+            "name": "HTML5",
+            "icon": "file-type-html"
+          },
+          {
+            "name": "CSS3",
+            "icon": "file-type-css"
+          },
+          {
+            "name": "Bootstrap",
+            "icon": "bootstrap"
+          },
+          {
+            "name": "React",
+            "icon": "react-dark"
+          },
+          {
+            "name": "Firebase",
+            "icon": "firebase"
+          },
+          {
+            "name": "Express.js",
+            "icon": "expressjs-dark"
+          },
+          {
+            "name": "MongoDB",
+            "icon": "mongodb"
+          }
+        ],
+        "liveSite": "https://akushontoy.web.app/",
+        "clientRepo": "https://github.com/faijulislambd/akushontoy-client.git",
+        "serverRepo": "https://github.com/faijulislambd/akushontoy-server.git",
+        "screenshots": [
+          "https://i.ibb.co/g7cSdMW/Akushontoy-1.png",
+          "https://i.ibb.co/fFxZSzy/Akushontoy-2.png",
+          "https://i.ibb.co/wRKzfTN/Akushontoy-3.png",
+          "https://i.ibb.co/yVGZmh1/Akushontoy-4.png",
+          "https://i.ibb.co/tc1GmTK/Akushontoy-5.png",
+          "https://i.ibb.co/jfjNxRF/Akushontoy-6.png",
+          "https://i.ibb.co/9pD1Lzs/Akushontoy-7.png"
+        ]
+      },
+      {
+        "id": "3",
+        "name": "CHOLOAKI-Art School Site",
+        "features": [
+          "Responsive Interface: The project is created while keeping the UI compatible for both Desktop and Mobile.",
+          "Authentication: Normal registration as well as third-party authentications (Google) are used. There are certain routes that are accessible only after you login or register through any of the given options. Also, there are certain features that are only accessible if your role matches the requirement. Payment method is also implemented.",
+          "Dynamic Data: Express.js & MongoDB is used for the CRUD operations."
+        ],
+        "technologies": [
+          {
+            "name": "VS Code",
+            "icon": "vscode-dark"
+          },
+          {
+            "name": "HTML5",
+            "icon": "file-type-html"
+          },
+          {
+            "name": "CSS3",
+            "icon": "file-type-css"
+          },
+          {
+            "name": "DausyUI",
+            "icon": "daisyui"
+          },
+          {
+            "name": "React",
+            "icon": "react-dark"
+          },
+          {
+            "name": "Axios",
+            "icon": "axios"
+          },
+          {
+            "name": "Stripe Payment Integration",
+            "icon": "stripe"
+          },
+          {
+            "name": "Firebase",
+            "icon": "firebase"
+          },
+          {
+            "name": "Express.js",
+            "icon": "expressjs-dark"
+          },
+          {
+            "name": "JWT",
+            "icon": "jwt"
+          },
+          {
+            "name": "MongoDB",
+            "icon": "mongodb"
+          }
+        ],
+        "liveSite": "https://choloaki-db2c8.web.app/",
+        "clientRepo": "https://github.com/faijulislambd/choloaki-client.git",
+        "serverRepo": "https://github.com/faijulislambd/choloaki-server.git",
+        "screenshots": [
+          "https://i.ibb.co/X4GfHSh/Choloaki-1.png",
+          "https://i.ibb.co/QfjCRGk/Choloaki-2.png",
+          "https://i.ibb.co/tpz14DP/Choloaki-3.png",
+          "https://i.ibb.co/3FnfwQp/Choloaki-4.png",
+          "https://i.ibb.co/z4wp14T/Choloaki-5.png",
+          "https://i.ibb.co/k4YTv4K/Choloaki-6.png",
+          "https://i.ibb.co/XFdWCDQ/Choloaki-7.png",
+          "https://i.ibb.co/GTNz58K/Choloaki-8.png",
+          "https://i.ibb.co/zNcpgKF/Choloaki-9.png"
+        ]
+      }
+    ]
+

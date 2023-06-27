@@ -18,7 +18,7 @@ const About = () => {
       <Title className="mb-14">About Me</Title>
       <Container>
         <Row>
-          <Col className="w-full md:w-1/2 mb-16 md:mb-0">
+          <Col className="md:w-1/2">
             <ProfileCard img={avater2} className="relative">
               <div className="flex space-x-5 absolute -bottom-7 left-1/2 -translate-x-1/2 z-20">
                 <SocialIcon
@@ -40,7 +40,7 @@ const About = () => {
               </div>
             </ProfileCard>
           </Col>
-          <Col className="w-full md:w-1/2 mb-16 md:mb-0 text-gray-900 text-3xl">
+          <Col className="md:w-1/2 text-gray-900 text-3xl">
             <p className="mb-5">Hi There. </p>
 
             <p className="mb-5">
@@ -48,7 +48,7 @@ const About = () => {
               creating dynamic and engaging websites. I have extensive knowledge
               of React and have successfully completed various projects using
               it. Additionally, I am well-versed in working with popular content
-              management systems (CMS) such as WordPress and Shopify.
+              management systems (CMS) such as WordPress.
             </p>
 
             <p>

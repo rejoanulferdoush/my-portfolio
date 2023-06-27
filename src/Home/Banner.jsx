@@ -12,7 +12,7 @@ const Banner = () => {
     <section className="bg-primary-gradient-light min-h-[500px] w-full banner-bg relative text-white z-0 pt-20 pb-[150px]">
       <Container className="w-full">
         <Row>
-          <Col className="w-full md:w-1/2 mb-16 md:mb-0">
+          <Col className="md:w-1/2">
             <div className="max-w-md flex flex-col gap-3">
               <p className="font-semibold text-2xl">Hi, I am a</p>
               <div className="card glass py-10 px-3">
@@ -46,7 +46,7 @@ const Banner = () => {
               </div>
             </div>
           </Col>
-          <Col className="w-full md:w-1/2 relative">
+          <Col className="md:w-1/2 relative">
             <ProfileCard
               img={avatar}
               name="Md. Faijul Islam"

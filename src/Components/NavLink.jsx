@@ -1,4 +1,4 @@
-const NavLink = ({ children, className, href }) => {
+const NavLink = ({ children, className = "", href = "#" }) => {
   return (
     <a
       href={href}
