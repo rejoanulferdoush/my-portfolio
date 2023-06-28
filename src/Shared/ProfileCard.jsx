@@ -7,7 +7,7 @@ const ProfileCard = ({ img, name, className = "", children = "" }) => {
         <img
           alt={name}
           src={img}
-          className="absolute -top-[50px] w-full h-[450px] object-contain"
+          className="absolute -top-[50px] w-full h-[500px] object-contain"
         />
       </figure>
       <h5 className="profile-wave text-4xl font-normal text-white flex items-end justify-center min-h-[120px] rounded-b-lg z-10">

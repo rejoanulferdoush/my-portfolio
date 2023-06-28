@@ -11,22 +11,23 @@
         "technologies": [
           {
             "name": "VS Code",
-            "icon": "vscode-dark"
+            "icon": "skill-icons:vscode-dark"
           },
           {
             "name": "HTML5",
-            "icon": "file-type-html"
+            "icon": "vscode-icons:file-type-html"
           },
           {
-            "name": "CSS3"
+            "name": "CSS3",
+            "icon": "vscode-icons:file-type-css"
           },
           {
             "name": "Bootstrap 4",
-            "icon": "bootstrap"
+            "icon": "logos:bootstrap"
           },
           {
             "name": "Javascript",
-            "icon": "javascript"
+            "icon": "logos:javascript"
           }
         ],
         "liveSite": "https://vieclip.com/home/",
@@ -51,35 +52,35 @@
         "technologies": [
           {
             "name": "VS Code",
-            "icon": "vscode-dark"
+            "icon": "skill-icons:vscode-dark"
           },
           {
             "name": "HTML5",
-            "icon": "file-type-html"
+            "icon": "vscode-icons:file-type-html"
           },
           {
             "name": "CSS3",
-            "icon": "file-type-css"
+            "icon": "vscode-icons:file-type-css"
           },
           {
             "name": "Bootstrap",
-            "icon": "bootstrap"
+            "icon": "devicon:reactbootstrap"
           },
           {
             "name": "React",
-            "icon": "react-dark"
+            "icon": "skill-icons:react-dark"
           },
           {
             "name": "Firebase",
-            "icon": "firebase"
+            "icon": "logos:firebase"
           },
           {
             "name": "Express.js",
-            "icon": "expressjs-dark"
+            "icon": "skill-icons:expressjs-dark"
           },
           {
             "name": "MongoDB",
-            "icon": "mongodb"
+            "icon": "skill-icons:mongodb"
           }
         ],
         "liveSite": "https://akushontoy.web.app/",
@@ -107,15 +108,15 @@
         "technologies": [
           {
             "name": "VS Code",
-            "icon": "vscode-dark"
+            "icon": "skill-icons:vscode-dark"
           },
           {
             "name": "HTML5",
-            "icon": "file-type-html"
+            "icon": "vscode-icons:file-type-html"
           },
           {
             "name": "CSS3",
-            "icon": "file-type-css"
+            "icon": "vscode-icons:file-type-css"
           },
           {
             "name": "DausyUI",
@@ -123,31 +124,31 @@
           },
           {
             "name": "React",
-            "icon": "react-dark"
+            "icon": "skill-icons:react-dark"
           },
           {
             "name": "Axios",
-            "icon": "axios"
+            "icon": "logos:axios"
           },
           {
             "name": "Stripe Payment Integration",
-            "icon": "stripe"
+            "icon": "logos:stripe"
           },
           {
             "name": "Firebase",
-            "icon": "firebase"
+            "icon": "logos:firebase"
           },
           {
             "name": "Express.js",
-            "icon": "expressjs-dark"
+            "icon": "skill-icons:expressjs-dark"
           },
           {
             "name": "JWT",
-            "icon": "jwt"
+            "icon": "logos:jwt"
           },
           {
             "name": "MongoDB",
-            "icon": "mongodb"
+            "icon": "skill-icons:mongodb"
           }
         ],
         "liveSite": "https://choloaki-db2c8.web.app/",
