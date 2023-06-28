@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="min-h-[500px] w-full banner-bg relative text-white z-0 pt-20 pb-[150px]"
+      className="min-h-[500px] w-full banner-bg relative text-white z-0 pt-[120px] pb-[250px]"
       style={{
         backgroundImage: `url(${skillBG})`,
         backgroundSize: "cover",

@@ -28,7 +28,7 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <section className="py-16 mb-[150px] " id="portfolio">
+    <section className="pt-16" id="portfolio">
       <Container>
         <Title className="mb-16">Portfolio</Title>
         <Row className="justify-center">

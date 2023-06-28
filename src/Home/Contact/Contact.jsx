@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-[500px] w-full bg-primary banner-bg banner-primary relative text-white z-0 pb-20"
+      className="min-h-[500px] w-full bg-primary banner-bg banner-primary relative text-white z-0 mt-[210px] pt-[100px] pb-[120px]"
     >
       <Container>
         <Title border="dark" color="text-white" className="mb-16">

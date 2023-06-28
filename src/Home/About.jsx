@@ -15,7 +15,7 @@ import {
 
 const About = () => {
   return (
-    <section className="py-16" id="about">
+    <section className="pt-20 pb-[120px]" id="about">
       <Title className="mb-14">About Me</Title>
       <Container>
         <Row>
