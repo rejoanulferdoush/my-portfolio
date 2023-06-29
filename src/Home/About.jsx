@@ -81,8 +81,8 @@ const About = () => {
             </Fade>
             <Fade direction="right" triggerOnce="true">
               <p className="mb-5">
-                If you are interest you can check my work as well as download my
-                resume.
+                If you are interested you can check out my work as well as
+                download my resume.
               </p>
             </Fade>
             <Fade direction="right" triggerOnce="true">
