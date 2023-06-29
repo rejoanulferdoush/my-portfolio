@@ -39,7 +39,7 @@ const Banner = () => {
                 </p>
                 <div>
                   <a
-                    href="https://drive.google.com/file/d/1DLUCcp-Cedz9jkEKGIawwN0lqV5ZAlD2/view?usp=sharing"
+                    href="https://drive.google.com/uc?export=download&id=1DLUCcp-Cedz9jkEKGIawwN0lqV5ZAlD2"
                     target="__blank"
                   >
                     <Button

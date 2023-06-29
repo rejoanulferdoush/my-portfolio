@@ -122,6 +122,7 @@ const Portfolio = () => {
                         plugins={plugins}
                         align="prev"
                         resizeOnContentsReady="true"
+                        moveType="freeScroll"
                       >
                         {selectedProject.screenshots &&
                           selectedProject.screenshots.map((img, i) => (
@@ -145,7 +146,7 @@ const Portfolio = () => {
                     <h3 className="text-2xl mb-3 font-semibold">
                       Technologies Used
                     </h3>
-                    <div className="flex flex-wrap">
+                    <div className="flex flex-wrap space-y-4">
                       {selectedProject.technologies &&
                         selectedProject.technologies.map((tech, index) => (
                           <SkillIcons

@@ -14,8 +14,21 @@ import {
   FaDownload,
 } from "react-icons/fa";
 import Button from "../Components/Button";
+import { scroller } from "react-scroll";
 
 const About = () => {
+  const scrollToElement = (element) => {
+    scroller.scrollTo(element, {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
+
+  const handleLinkClick = (element) => {
+    scrollToElement(element);
+  };
+
   return (
     <section className="pt-20 pb-[120px]" id="about">
       <Title className="mb-14">About Me</Title>
@@ -74,11 +87,16 @@ const About = () => {
             </Fade>
             <Fade direction="right" triggerOnce="true">
               <div className="flex flex-wrap gap-4 justify-start">
-                <a href="#portfolio">
+                <a
+                  href="#portfolio"
+                  onClick={() => {
+                    handleLinkClick("portfolio");
+                  }}
+                >
                   <Button className="text-sm">My Portfolio</Button>
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1DLUCcp-Cedz9jkEKGIawwN0lqV5ZAlD2/view?usp=sharing"
+                  href="https://drive.google.com/uc?export=download&id=1DLUCcp-Cedz9jkEKGIawwN0lqV5ZAlD2"
                   target="__blank"
                 >
                   <Button className="text-sm">
