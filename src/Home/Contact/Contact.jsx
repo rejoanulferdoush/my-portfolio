@@ -5,11 +5,53 @@ import Container from "../../Components/Container";
 import Row from "../../Components/Row";
 import Title from "../../Components/Title/Title";
 import emailjs from "@emailjs/browser";
-import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import { Zoom } from "react-awesome-reveal";
 const Contact = () => {
   const handleEmailSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
+    const name = form.from_name;
+    const email = form.from_email;
+    const subject = form.subject;
+    const message = form.message;
+
+    if (name.value.trim() === "") {
+      // Field is empty
+      name.classList.add("border-red-400");
+      toast.error("Name Field Can't Be Empty!");
+      return;
+    } else {
+      // Field is not empty
+      name.classList.remove("border-red-400");
+    }
+    if (email.value.trim() === "") {
+      // Field is empty
+      email.classList.add("border-red-400");
+      toast.error("Email Field Can't Be Empty!");
+      return;
+    } else {
+      // Field is not empty
+      email.classList.remove("border-red-400");
+    }
+    if (subject.value.trim() === "") {
+      // Field is empty
+      subject.classList.add("border-red-400");
+      toast.error("Subject Field Can't Be Empty!");
+      return;
+    } else {
+      // Field is not empty
+      subject.classList.remove("border-red-400");
+    }
+    if (message.value.trim() === "") {
+      // Field is empty
+      message.classList.add("border-red-400");
+      toast.error("Message Field Can't Be Empty!");
+      return;
+    } else {
+      // Field is not empty
+      message.classList.remove("border-red-400");
+    }
+
     emailjs
       .sendForm(
         "service_j8cwzid",
@@ -19,11 +61,11 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          toast.success("Message Sent!");
+          toast.success("Message Sent!", result);
           form.reset();
         },
         (error) => {
-          toast.error("Message Not Sent!");
+          toast.error("Message Not Sent!", error);
         }
       );
   };
@@ -101,7 +143,7 @@ const Contact = () => {
 
               <Button
                 type="submit"
-                color="text-gray-900 hover:text-white"
+                color="text-gray-900 hover:text-gray-900 md:hover:text-white"
                 className="bg-white mt-10"
               >
                 Send Mail
@@ -109,17 +151,22 @@ const Contact = () => {
             </form>
           </Col>
           <Col className="md:w-2/5 order-1 md:order-2">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.33854531533!2d90.3543506862191!3d23.770955932968665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c15a704c52d3%3A0xea6f48759805cb35!2sAdabor!5e0!3m2!1sen!2sbd!4v1687968455133!5m2!1sen!2sbd"
-              width="100%"
-              height="450"
-              className="border-0"
-              loading="lazy"
-            ></iframe>
+            <Zoom>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.33854531533!2d90.3543506862191!3d23.770955932968665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c15a704c52d3%3A0xea6f48759805cb35!2sAdabor!5e0!3m2!1sen!2sbd!4v1687968455133!5m2!1sen!2sbd"
+                width="100%"
+                height="450"
+                className="border-0"
+                loading="lazy"
+              ></iframe>
+            </Zoom>
           </Col>
         </Row>
       </Container>
-      <Toaster position="bottom-right" reverseOrder={false} />
+      <Toaster
+        position={window.innerWidth < 768 ? "top-center" : "bottom-right"}
+        reverseOrder={false}
+      />
     </section>
   );
 };

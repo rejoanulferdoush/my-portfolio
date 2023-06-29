@@ -7,6 +7,7 @@ import avatar from "./../assets/Avatars/avatar-2.png";
 import Button from "../Components/Button";
 import ProfileCard from "../Shared/ProfileCard";
 import { Fade } from "react-awesome-reveal";
+import { FaDownload } from "react-icons/fa";
 
 const Banner = () => {
   return (
@@ -17,7 +18,7 @@ const Banner = () => {
       <Container className="w-full">
         <Row>
           <Col className="lg:w-1/2 mb-16 order-2 md:order-1">
-            <Fade direction="left">
+            <Fade direction="left" triggerOnce="true">
               <div className="max-w-md flex flex-col gap-3">
                 <p className="font-semibold text-2xl">Hi, I am a</p>
                 <div className="card glass py-10 px-3">
@@ -42,10 +43,10 @@ const Banner = () => {
                     target="__blank"
                   >
                     <Button
-                      color="text-gray-900 hover:text-white"
+                      color="text-gray-900 hover:text-gray-900 md:hover:text-white"
                       className="bg-white"
                     >
-                      My Resume
+                      My Resume <FaDownload />
                     </Button>
                   </a>
                 </div>

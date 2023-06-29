@@ -54,7 +54,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="navbar bg-primary justify-center hidden md:flex fixed top-0 z-50">
+      <div className="navbar bg-primary justify-center hidden shadow-xl md:flex fixed top-0 z-50">
         <div className="navbar-center flex">
           <ul className="flex gap-4 px-1 ">
             <li>
